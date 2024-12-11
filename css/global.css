@@ -1,0 +1,42 @@
+:root {
+   /* primary */
+   --primary_light-1: #febdfe;
+   --primary_light-2: #fe9bfe;
+   --primary_light-3: #fd7afd;
+   --primary_color: #fd59fd;
+   --primary_dark-1: #ca47ca;
+   --primary_dark-2: #983598;
+   --primary_dark-3: #652465;
+
+   /* greys */
+   --grey-1: #d4d4d4;
+   --grey-2: #a9a8a9;
+   --grey-3: #7d7d7d;
+   --grey-4: #525152;
+   --grey-5: #272627;
+
+   /* good */
+   --good_light: #9bc5d4;
+   --good_prime: #7eb4c8;
+   --good_dark: #62a4bc;
+
+   /* warning */
+   --warning_light: #fde89b;
+   --warning_prime: #fcde73;
+   --warning_dark: #fbd54b;
+
+   /* alert */
+   --alert_light: #f39c91;
+   --alert_prime: #ef7b6c;
+   --alert_dark: #eb5a47;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Fira Sans Condensed', sans-serif;
+}
