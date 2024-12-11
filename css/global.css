@@ -16,19 +16,19 @@
    --grey-5: #272627;
 
    /* good */
-   --good_light: #9bc5d4;
-   --good_prime: #7eb4c8;
-   --good_dark: #62a4bc;
+   --success_light: #9bc5d4;
+   --success_prime: #7eb4c8;
+   --success_dark: #62a4bc;
 
    /* warning */
-   --warning_light: #fde89b;
-   --warning_prime: #fcde73;
-   --warning_dark: #fbd54b;
+   --warn_light: #fde89b;
+   --warn_prime: #fcde73;
+   --warn_dark: #fbd54b;
 
    /* alert */
-   --alert_light: #f39c91;
-   --alert_prime: #ef7b6c;
-   --alert_dark: #eb5a47;
+   --error_light: #f39c91;
+   --error_prime: #ef7b6c;
+   --error_dark: #eb5a47;
 }
 
 * {
