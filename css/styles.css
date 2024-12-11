@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-   color: #fd59fd;
+   color: var(--primary_color);
    font-size: 3rem;
    font-style: italic;
 }
