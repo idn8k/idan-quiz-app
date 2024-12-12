@@ -39,4 +39,8 @@
 
 body {
    font-family: 'Fira Sans Condensed', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   letter-spacing: 0.9px;
+   line-height: 1.3;
 }

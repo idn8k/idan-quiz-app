@@ -20,6 +20,19 @@
          rel="stylesheet"
       />
       <link
+         rel="preconnect"
+         href="https://fonts.googleapis.com"
+      />
+      <link
+         rel="preconnect"
+         href="https://fonts.gstatic.com"
+         crossorigin
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+         rel="stylesheet"
+      />
+      <link
          rel="stylesheet"
          href="./css/styles.css"
       />
@@ -29,5 +42,63 @@
       <header>
          <h1>QuizApp</h1>
       </header>
+      <main>
+         <div class="question-card">
+            <p class="question">What does HTML stand for in web development?</p>
+            <div class="tags-container">
+               <span
+                  style="background-color: var(--warn_light)"
+                  class="tag"
+                  >#CSS</span
+               >
+               <span
+                  style="background-color: var(--success_light)"
+                  class="tag"
+                  >#HTML</span
+               >
+               <span
+                  style="background-color: var(--error_light)"
+                  class="tag"
+                  >#JS</span
+               >
+            </div>
+            <button class="show-answer-btn">Show answer</button>
+            <span
+               ><img
+                  class="card-bookmark"
+                  src="./assets/nav-Bookmark.svg"
+                  alt="bookmark"
+            /></span>
+         </div>
+         <nav>
+            <a
+               class="nav-icon"
+               href="#"
+            >
+               <img
+                  src="./assets/House Icon.svg"
+                  alt="home button"
+               />
+            </a>
+            <a
+               class="nav-icon"
+               href="#"
+            >
+               <img
+                  src="./assets/nav-Bookmark.svg"
+                  alt="bookmark-button"
+               />
+            </a>
+            <a
+               class="nav-icon"
+               href="#"
+            >
+               <img
+                  src="assets/Lucide Icon.svg"
+                  alt="user-button"
+               />
+            </a>
+         </nav>
+      </main>
    </body>
 </html>
