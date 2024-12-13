@@ -41,6 +41,7 @@
    <body>
       <header>
          <h1>QuizApp</h1>
+         <p style="font-weight: 400">bookmark</p>
       </header>
       <main>
          <div class="question-card">
@@ -130,6 +131,11 @@
          <!-- ----------- -->
          <div class="question-card">
             <p class="question">What does HTML stand for in web development?</p>
+            <button class="hide-answer-btn">Hide answer</button>
+            <p class="answer active">
+               HTML stands for HyperText Markup Language, used to structure
+               webpages.
+            </p>
             <div class="tags-container">
                <span
                   style="background-color: var(--warn_light)"
@@ -147,13 +153,6 @@
                   >#JS</span
                >
             </div>
-            <button>
-               <img
-                  class="card-bookmark"
-                  src="../assets/card-Bookmark.svg"
-                  alt="bookmark"
-               />
-            </button>
          </div>
          <!-- ----------- -->
          <!-- ----------- -->
