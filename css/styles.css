@@ -1,6 +1,7 @@
 @import './global.css';
 @import './question-card.css';
 @import './navbar.css';
+@import './add-question.css';
 
 header {
    display: flex;
@@ -9,7 +10,7 @@ header {
    z-index: 1;
    position: fixed;
    top: 0;
-   height: 6rem;
+   height: 100px;
    width: 100vw;
    background: white;
    box-shadow: 0px 6px 4px -4px rgba(212, 212, 212, 0.3);
@@ -25,10 +26,19 @@ main {
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 3rem;
-   background: white;
+   /* background: lightseagreen; */
+   /* why is the h sticks to top?? */
    height: 100vh;
-   width: auto;
-   padding: 4rem 0;
-   margin: 6rem 0;
+   /* padding: 4rem 0; */
+   margin: 100px 0;
+}
+
+.bookmark-icon {
+   position: absolute;
+   border: none;
+   right: 20px;
+   top: -20px;
+   height: 46px;
+   width: 46px;
+   background: none;
 }
