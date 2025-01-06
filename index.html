@@ -36,16 +36,26 @@
          rel="stylesheet"
          href="./css/styles.css"
       />
-      <title>index</title>
+      <title>home</title>
    </head>
    <body>
       <header>
          <h1>QuizApp</h1>
-         <p style="font-weight: 400">index</p>
+         <p style="font-weight: 400">home</p>
       </header>
       <main>
          <div class="question-card">
-            <p class="question">What does HTML stand for in web development?</p>
+            <p class="question">
+               What is JavaScript, and how is it commonly used in web
+               development?
+            </p>
+            <p
+               class="answer hidden"
+               data-js="answer-text"
+            >
+               JavaScript is a versatile programming language used to create
+               interactive and dynamic website features.
+            </p>
             <div class="tags-container">
                <span
                   style="background-color: var(--warn_light)"
@@ -63,126 +73,164 @@
                   >#JS</span
                >
             </div>
-            <button class="show-answer-btn">Show answer</button>
-            <span
-               ><img
-                  class="bookmark-button"
-                  src="./assets/card-Bookmark.svg"
-                  alt="bookmark"
-            /></span>
-         </div>
-         <div class="question-card">
-            <p class="question">What does HTML stand for in web development?</p>
-            <div class="tags-container">
-               <span
-                  style="background-color: var(--warn_light)"
-                  class="tag"
-                  >#CSS</span
-               >
-               <span
-                  style="background-color: var(--success_light)"
-                  class="tag"
-                  >#HTML</span
-               >
-               <span
-                  style="background-color: var(--error_light)"
-                  class="tag"
-                  >#JS</span
-               >
-            </div>
-            <button class="show-answer-btn">Show answer</button>
-            <span
-               ><img
-                  class="bookmark-button"
-                  src="./assets/card-Bookmark.svg"
-                  alt="bookmark"
-            /></span>
-         </div>
-         <div class="question-card">
-            <p class="question">What does HTML stand for in web development?</p>
-            <div class="tags-container">
-               <span
-                  style="background-color: var(--warn_light)"
-                  class="tag"
-                  >#CSS</span
-               >
-               <span
-                  style="background-color: var(--success_light)"
-                  class="tag"
-                  >#HTML</span
-               >
-               <span
-                  style="background-color: var(--error_light)"
-                  class="tag"
-                  >#JS</span
-               >
-            </div>
-            <button class="show-answer-btn">Show answer</button>
-            <span
-               ><img
-                  class="bookmark-button"
-                  src="./assets/card-Bookmark.svg"
-                  alt="bookmark"
-            /></span>
-         </div>
-         <div class="question-card">
-            <p class="question">What does HTML stand for in web development?</p>
-            <div class="tags-container">
-               <span
-                  style="background-color: var(--warn_light)"
-                  class="tag"
-                  >#CSS</span
-               >
-               <span
-                  style="background-color: var(--success_light)"
-                  class="tag"
-                  >#HTML</span
-               >
-               <span
-                  style="background-color: var(--error_light)"
-                  class="tag"
-                  >#JS</span
-               >
-            </div>
-            <button class="show-answer-btn">Show answer</button>
-            <button>
-               <img
-                  class="bookmark-button"
-                  src="./assets/card-Bookmark.svg"
-                  alt="bookmark"
-               />
+            <button
+               class="show-answer-btn"
+               data-js="show-answer"
+            >
+               Show answer
             </button>
+            <span>
+               <img
+                  data-js="bookmark-btn"
+                  class="bookmark-icon"
+                  src="./assets/card-Bookmark.svg"
+                  alt="bookmark"
+               />
+            </span>
          </div>
-
-         <nav>
-            <a
-               class="nav-icon"
-               href="./components/bookmarks-page.html"
-            >
+         <div class="question-card">
+            <p class="question">
+               How does JavaScript differ from HTML and CSS in web development?
+            </p>
+            <p class="answer hidden">
+               JavaScript adds interactivity and logic, while HTML structures
+               content and CSS styles the appearance.
+            </p>
+            <div class="tags-container">
+               <span
+                  style="background-color: var(--warn_light)"
+                  class="tag"
+                  >#CSS</span
+               >
+               <span
+                  style="background-color: var(--success_light)"
+                  class="tag"
+                  >#HTML</span
+               >
+               <span
+                  style="background-color: var(--error_light)"
+                  class="tag"
+                  >#JS</span
+               >
+            </div>
+            <button class="show-answer-btn">Show answer</button>
+            <span>
                <img
-                  src="./assets/nav-Bookmark.svg"
-                  alt="bookmark-button"
+                  class="bookmark-icon"
+                  src="./assets/card-Bookmark.svg"
+                  alt="bookmark"
                />
-            </a>
-            <a
-               class="nav-icon"
-               href="./index.html"
-            >
+            </span>
+         </div>
+         <div class="question-card">
+            <p class="question">
+               What are JavaScript variables, and how can they be declared in
+               modern syntax?
+            </p>
+            <p class="answer hidden">
+               JavaScript variables store data and are declared using var, let,
+               or const keywords.
+            </p>
+            <div class="tags-container">
+               <span
+                  style="background-color: var(--warn_light)"
+                  class="tag"
+                  >#CSS</span
+               >
+               <span
+                  style="background-color: var(--success_light)"
+                  class="tag"
+                  >#HTML</span
+               >
+               <span
+                  style="background-color: var(--error_light)"
+                  class="tag"
+                  >#JS</span
+               >
+            </div>
+            <button class="show-answer-btn">Show answer</button>
+            <span>
                <img
-                  src="./assets/filled-House Icon.svg"
-                  alt="home button"
+                  class="bookmark-icon"
+                  src="./assets/card-Bookmark.svg"
+                  alt="bookmark"
                />
-            </a>
-            <a
-               class="nav-icon"
-               href="#"
-            >
+            </span>
+         </div>
+         <div class="question-card">
+            <p class="question">
+               Can you explain the concept of functions in JavaScript and their
+               purpose?
+            </p>
+            <p class="answer hidden">
+               Functions are reusable blocks of code designed to perform
+               specific tasks when called in programs.
+            </p>
+            <div class="tags-container">
+               <span
+                  style="background-color: var(--warn_light)"
+                  class="tag"
+                  >#CSS</span
+               >
+               <span
+                  style="background-color: var(--success_light)"
+                  class="tag"
+                  >#HTML</span
+               >
+               <span
+                  style="background-color: var(--error_light)"
+                  class="tag"
+                  >#JS</span
+               >
+            </div>
+            <button class="show-answer-btn">Show answer</button>
+            <span>
                <img
-                  src="assets/Lucide Icon.svg"
-                  alt="user-button"
+                  class="bookmark-icon"
+                  src="./assets/card-Bookmark.svg"
+                  alt="bookmark"
                />
-            </a>
-         </nav>
+            </span>
+         </div>
       </main>
+      <nav>
+         <a
+            class="nav-icon"
+            href="./index.html"
+         >
+            <img
+               src="./assets/home-icon-filled.svg"
+               alt="home button"
+            />
+         </a>
+         <a
+            class="nav-icon"
+            href="./pages/add-question.html"
+         >
+            <img
+               src="./assets/plus-icon.svg"
+               alt="home button"
+            />
+         </a>
+         <a
+            class="nav-icon"
+            href="./pages/bookmarks.html"
+         >
+            <img
+               src="./assets/nav-Bookmark.svg"
+               alt="bookmark-button"
+            />
+         </a>
+         <a
+            class="nav-icon"
+            href="#"
+         >
+            <img
+               src="assets/user-icon.svg"
+               alt="user-button"
+            />
+         </a>
+      </nav>
    </body>
+   <script src="./index.js"></script>
 </html>
