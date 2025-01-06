@@ -105,6 +105,6 @@
    background: var(--primary_dark-1);
 }
 
-/* .active {
+.hidden {
    visibility: hidden;
-} */
+}
