@@ -1,4 +1,6 @@
 const bookmarkBtn = document.querySelector('[data-js="bookmark-btn"]');
+const showAnswerBtn = document.querySelector('[data-js="show-answer"]');
+const answerText = document.querySelector('[data-js="answer-text"]');
 
 bookmarkBtn.addEventListener('click', () => {
    toggleBookmarkBtn();
@@ -14,10 +16,8 @@ function toggleBookmarkBtn() {
    }
 }
 
-const showAnswerBtn = document.querySelector('[data-js="show-answer"]');
-const answerText = document.querySelector('[data-js="answer-text"]');
-
 showAnswerBtn.addEventListener('click', () => {
+   console.log('click');
    toggleAnswer();
 });
 
