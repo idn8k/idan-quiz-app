@@ -67,6 +67,10 @@
    background: none;
 }
 
+.bookmark-icon:hover {
+   cursor: pointer;
+}
+
 .answer {
    height: 30%;
    width: 80%;
@@ -96,12 +100,11 @@
    transition: all 0.3s;
 }
 
-.hide-answer-btn:hover,
-.hide-answer-btn:active {
+.hide-answer-btn:hover {
    color: white;
    background: var(--primary_dark-1);
 }
 
-.active {
+/* .active {
    visibility: hidden;
-}
+} */
