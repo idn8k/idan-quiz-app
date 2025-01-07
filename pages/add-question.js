@@ -5,6 +5,9 @@ const tagText = document.querySelector('[data-js="tag-text"]');
 const questionCard = document.querySelector('[data-js="question-card"]');
 const showAnswerBtn = document.querySelector('[data-js="show-answer"]');
 
+const wordCounter = document.querySelector('[data-js="word-counter"]');
+const wordCounterTag = document.querySelector('[data-js="word-counter-tag"]');
+
 form.addEventListener('submit', (e) => {
    e.preventDefault();
 

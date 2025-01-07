@@ -18,6 +18,8 @@
    display: flex;
    flex-direction: column;
    gap: 5px;
+
+   position: relative;
 }
 
 .input-area-tag {
@@ -26,6 +28,8 @@
    display: flex;
    flex-direction: column;
    gap: 5px;
+
+   position: relative;
 }
 
 .add-question-text {
@@ -83,4 +87,24 @@ label {
 
 .hidden {
    visibility: hidden;
+}
+
+.word-counter {
+   position: absolute;
+   right: 6px;
+   bottom: -22px;
+   font-size: 14px;
+   font-weight: 200;
+   font-family: 'Fira Sans Condensed';
+   font-style: italic;
+}
+
+.word-counter-tag {
+   position: absolute;
+   right: 6px;
+   bottom: -22px;
+   font-size: 14px;
+   font-weight: 200;
+   font-family: 'Fira Sans Condensed';
+   font-style: italic;
 }
