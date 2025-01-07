@@ -42,3 +42,14 @@ function toggleAnswer() {
       showAnswerBtn.textContent = 'Show answer';
    }
 }
+
+{
+   /* <p>
+   Can you explain the concept of functions in JavaScript and their purpose?
+</p>
+
+<p>
+Functions are reusable blocks of code designed to perform
+specific tasks when called in programs.
+</p> */
+}
