@@ -31,6 +31,7 @@
 .add-question-text {
    width: 100%;
    height: 100%;
+   color: var(--primary_dark-2);
    border-radius: 10px;
    padding: 10px 16px;
    border: solid 2px;
@@ -39,6 +40,7 @@
 .add-question-tag {
    width: 100%;
    height: 100%;
+   color: var(--primary_dark-2);
    border-radius: 10px;
    border: solid 2px;
    padding: 10px 5px;
@@ -47,7 +49,7 @@
 
 .btn-form {
    width: 80%;
-   padding: 1rem 2rem;
+   padding: 0.5rem 2rem;
    font-size: 22px;
    border: none;
    border-radius: 10px;
@@ -73,4 +75,12 @@ label {
 .btn-form:active {
    color: white;
    background: var(--primary_dark-1);
+}
+
+.hide-element {
+   display: none;
+}
+
+.hidden {
+   visibility: hidden;
 }

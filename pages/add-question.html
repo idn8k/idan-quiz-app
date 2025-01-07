@@ -36,6 +36,7 @@
          rel="stylesheet"
          href="../css/styles.css"
       />
+
       <title>add-question</title>
    </head>
    <body>
@@ -51,8 +52,10 @@
             <div class="input-area">
                <label for="question">Question</label>
                <textarea
-                  name="question-text"
-                  id="add-question-text"
+                  required
+                  type="text"
+                  name="question"
+                  id="question"
                   class="add-question-text"
                   placeholder="Write your question here..."
                ></textarea>
@@ -60,8 +63,10 @@
             <div class="input-area">
                <label for="answer">Answer</label>
                <textarea
-                  name="answer-text"
-                  id="add-question-text"
+                  required
+                  type="text"
+                  name="answer"
+                  id="answer"
                   class="add-question-text"
                   placeholder="Write your answer here..."
                ></textarea>
@@ -69,10 +74,12 @@
             <div class="input-area-tag">
                <label for="tag">Tag</label>
                <textarea
-                  name="tags-text"
-                  id="add-question-text"
+                  required
+                  type="text"
+                  name="tag"
+                  id="tag"
                   class="add-question-tag"
-                  placeholder="Add a tag"
+                  placeholder="Add a tag..."
                ></textarea>
             </div>
             <button
@@ -82,6 +89,45 @@
                Submit
             </button>
          </form>
+
+         //-- ↓ --card-- ↓ --//
+
+         <div
+            data-js="question-card"
+            class="question-card hide-element"
+         >
+            <p
+               class="question"
+               data-js="question-text"
+            ></p>
+            <p
+               class="answer hidden"
+               data-js="answer-text"
+            ></p>
+            <div class="tags-container">
+               <span
+                  style="background-color: var(--warn_light)"
+                  class="tag"
+                  data-js="tag-text"
+               ></span>
+            </div>
+            <button
+               class="show-answer-btn"
+               data-js="show-answer"
+            >
+               Show answer
+            </button>
+            <span>
+               <img
+                  data-js="bookmark-btn"
+                  class="bookmark-icon"
+                  src="../assets/card-Bookmark.svg"
+                  alt="bookmark"
+               />
+            </span>
+         </div>
+
+         //-- ↑ --card-- ↑ --//
       </main>
       <nav>
          <a
@@ -95,7 +141,7 @@
          </a>
          <a
             class="nav-icon"
-            href="./index.html"
+            href="./add-question.html"
          >
             <img
                src="../assets/plus-icon-filled.svg"
@@ -122,4 +168,5 @@
          </a>
       </nav>
    </body>
+   <script src="./add-question.js"></script>
 </html>
